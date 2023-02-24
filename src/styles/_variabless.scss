@@ -1,0 +1,17 @@
+:root {
+  --ff-syne: 'Syne', sans-serif;
+  --ff-ibm: 'IBM Plex Sans', sans-serif;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-red: #ca0200;
+  --color-gray: #9b9b9b;
+  --color-lightgreen: #a5d364;
+  --color-ligthpink: #fef0f0;
+  --color-pink: #ff8585;
+  --bg-green-gradient: linear-gradient(180deg, #89f09c 0%, #3cc755 100%);
+  --bg-red-gradient: linear-gradient(
+    180deg,
+    #ca0200 46.19%,
+    rgba(255, 177, 153, 0) 122.31%
+  );
+}
