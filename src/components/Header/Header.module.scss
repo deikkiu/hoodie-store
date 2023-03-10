@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 0;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.name {
+    font-family: var(--ff-ibm);
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--color-white);
+}
+
+.links {
+    display: flex;
+    column-gap: 10px;
+}
+
+.link {
+
+    outline: none;
+    border: none;
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+
+    background: none;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+}
+
+//
+
+.fill {
+    path {
+        fill: var(--color-white);
+    }
+}

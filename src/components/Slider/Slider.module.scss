@@ -1,0 +1,6 @@
+$bg-img: url('../../assets/images/123.png');
+
+.slider {
+    background: $bg-img center center / cover no-repeat;
+    height: 600px;
+}
